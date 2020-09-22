@@ -1,0 +1,32 @@
+tbody>tr:nth-child(odd), tr:nth-child(odd) td {
+    background-color: rgb(241, 241, 241);
+}
+
+table,
+td,
+th {
+    border: 1px solid rgb(221, 221, 221);
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 5px;
+}
+
+body {
+    padding: 50px 50px 0 50px;
+}
+
+table {
+    width: 100%;
+}
+
+thead {
+    background-color: rgb(221, 221, 221);
+    text-align: left;
+}
+
+tbody tr:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
