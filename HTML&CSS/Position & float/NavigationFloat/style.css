@@ -1,0 +1,75 @@
+body {
+  margin: 0 auto;
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  width: 80%;
+  background-color: #eeeeee;
+}
+main {
+  width: 80%;
+}
+
+header {
+  margin-top: 50px;
+  border-bottom: 3px solid;
+}
+.header-nav {
+  float: right;
+  position: relative;
+  right: -170px;
+  bottom: 10px;
+}
+.header-nav li {
+  display: inline-block;
+  padding-right: 10px;
+  text-decoration: none;
+  color: #218a45;
+}
+.site-title {
+  font-size: 32px;
+  font-weight: bold;
+  display: inline-block;
+  text-transform: uppercase;
+  margin: 0;
+}
+img {
+  border: 3px solid;
+  padding: 5px;
+  box-shadow: 10px 4px 19px -12px rgba(0, 0, 0, 0.25);
+}
+h3 {
+  font-family: Georgia, serif;
+  font-size: 1em;
+}
+aside {
+  float: right;
+  position: relative;
+  top: 50px;
+  right: 65px;
+}
+aside nav ul li a {
+  text-decoration: none;
+  color: #218a45;
+}
+.first-section img {
+  float: right;
+  margin-left: 20px;
+}
+
+.second-section blockquote {
+  float: right;
+  width: 40%;
+  border-left: 2px solid #dddddd;
+  padding-left: 30px;
+  font-family: Georgia, serif;
+}
+cite {
+  display: block;
+  float: right;
+  padding-top: 20px;
+}
+.third-section img {
+  float: left;
+  margin-right: 20px;
+}

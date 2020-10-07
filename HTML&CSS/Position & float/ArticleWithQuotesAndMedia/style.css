@@ -1,0 +1,49 @@
+body {
+  margin: 0 auto;
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  width: 80%;
+  background-color: #eeeeee;
+}
+
+header {
+  margin-top: 50px;
+  border-bottom: 3px solid;
+}
+
+.site-title {
+  font-weight: bold;
+  display: inline-block;
+  text-transform: uppercase;
+  margin: 0;
+}
+img {
+  border: 3px solid;
+  padding: 5px;
+  box-shadow: 10px 4px 19px -12px rgba(0, 0, 0, 1);
+}
+h3{
+  font-family: Georgia,serif;
+  font-size: 1em;
+}
+.first-section img {
+  float: right;
+  margin-left: 20px;
+}
+
+.second-section blockquote {
+  float: right;
+  width: 40%;
+  border-left: 2px solid #dddddd;
+  padding-left: 30px;
+}
+cite {
+  display: block;
+  float: right;
+  padding-top: 20px;
+}
+.third-section img {
+  float: left;
+  margin-right: 20px;
+}

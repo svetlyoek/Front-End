@@ -1,0 +1,51 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css";
+
+body {
+  margin: 0;
+  overflow: hidden;
+}
+.viewport {
+  height: 50vh;
+}
+.card {
+  display: block;
+  position: absolute;
+  height: 50vh;
+  width: 100%;
+}
+.first-section {
+  background: linear-gradient(
+    90deg,
+    rgba(24, 90, 157, 1) 0%,
+    rgba(40, 134, 159, 1) 41%,
+    rgba(66, 205, 161, 1) 100%
+  );
+}
+.second-section {
+  background: linear-gradient(
+    90deg,
+    rgba(168, 50, 119, 1) 0%,
+    rgba(186, 84, 77, 1) 41%,
+    rgba(210, 130, 19, 1) 100%
+  );
+}
+img {
+  width: 250px;
+  margin: 25vh 0 0 50vw;
+  transform: translate(-50%, -50%);
+}
+.first-image {
+  height: 150px;
+}
+i {
+  position: absolute;
+  left: 1060px;
+  color: rgb(255, 255, 255);
+}
+.fas.fa-link {
+  top: 280px;
+  left: 1060px;
+}
+.fas.fa-star {
+  top: 395px;
+}
