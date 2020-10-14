@@ -1,0 +1,42 @@
+body {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  background-color: rgb(238, 238, 238);
+  height: 100vh;
+}
+header {
+  flex-basis: 100%;
+  height: 100px;
+}
+main {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin-bottom: 300px;
+  padding: 0 15px 0 15px;
+}
+h1 {
+  font-family: helvetica, serif;
+  text-transform: uppercase;
+  border-bottom: 2px solid black;
+  padding: 0 0 15px 15px;
+}
+h2 {
+  flex-basis: 100%;
+  margin: 0;
+  height: 40px;
+}
+main p {
+  flex-basis: 100%;
+  flex-wrap: wrap;
+}
+footer {
+  box-sizing: border-box;
+  flex-basis: 100%;
+  align-self: flex-end;
+  height: 50px;
+  padding: 15px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(102, 102, 102);
+}
