@@ -1,0 +1,71 @@
+body {
+  background-color: rgb(238, 238, 238);
+  margin: 0 auto;
+  width: 80%;
+  padding: 30px;
+}
+h2 {
+  margin: 0 0 0 12px;
+}
+article {
+  width: 30%;
+  border-radius: 8px;
+  box-shadow: 0 0 5px 5px #d2d2d2;
+  background-color: white;
+}
+h4 {
+  padding: 5px 0 0 10px;
+  margin: 0;
+}
+img {
+  width: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+p {
+  padding: 10px;
+  margin: 0;
+}
+.cards-layout.masonry {
+  height: 2050px;
+}
+.cards-layout.masonry article {
+  display: inline-block;
+  vertical-align: top;
+  margin: 10px 10px 10px 15px;
+}
+
+p:nth-child(odd) {
+  border-bottom: 1px solid black;
+}
+.cards-layout.masonry > article:nth-child(5) {
+  position: relative;
+  top: -500px;
+}
+.cards-layout.masonry > article:nth-child(6) {
+  position: relative;
+  top: -370px;
+}
+.cards-layout.masonry > article:nth-child(8) {
+  position: relative;
+  top: -490px;
+}
+.cards-layout.masonry > article:nth-child(9) {
+  position: relative;
+  top: -490px;
+}
+.cards-layout.flex h2 {
+  display: flex;
+  flex-basis: 95%;
+  margin-bottom: 5px;
+}
+.cards-layout.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.cards-layout.flex article {
+  margin: 15px;
+}
+.cards-layout.flex > article:nth-child(8) {
+  justify-content: flex-start;
+}
