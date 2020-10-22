@@ -1,0 +1,17 @@
+@media screen and (min-width: 600px) {
+  .mq-width span::after {
+    content: " Viewport width is larger then 600px";
+    color: #2b7651;
+  }
+}
+@media screen and (min-height: 600px) {
+  .mq-height span::after {
+    content: " Viewport height is larger than 600px";
+    color: #2b7651;
+  }
+}
+@media (min-aspect-ration: 8/5) {
+  mq-ar span::after {
+    content: " Aspect Ration is larger than 8/5";
+  }
+}
